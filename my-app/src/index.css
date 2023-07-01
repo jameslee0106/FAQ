@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display:flex;
   justify-content: center;
+  align-items: center;
 }
 
 code {
@@ -31,6 +32,8 @@ code {
 .header {
   text-align: center;
   font-weight: bold;
+  color: white;
+  font-weight: bolder;
 }
 
 .test {
