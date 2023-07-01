@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 
 export const Questions = () => {
   const questions = [
@@ -21,13 +22,16 @@ export const Questions = () => {
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui facere in labore maxime, assumenda iure sed tenetur alias omnis eveniet similique laborum, neque porro unde ducimus officiis animi vitae! Quidem."
     } ]
 
+    const [view, setView] = useState(false);
+
     return (
     <div className='container'>
       <div className='accordian'>
+        <h2 className='header'>Frequently Asked Questions</h2>
         {questions.map((item, index) => (
           <div className='item'>
             <div className='title'>
-              <h2>{item.title}</h2>
+              <h2>{item.title} <button>+</button></h2>
             </div>
             <div className='info'>
               <h2>{item.info}</h2>
@@ -38,6 +42,11 @@ export const Questions = () => {
     </div>
     )
 }
+
+// {
+//   show?<h1>Hello World !</h1>:null
+// }
+// <button onClick={()=> setShow(!show)}>Toggle</button>
 
 // const testQuestions = questions.map(item => ({
 //   title: item.title,
