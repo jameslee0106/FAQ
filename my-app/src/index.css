@@ -19,10 +19,10 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vh;
+  height: 50vh;
+  width: 75vh;
   background-color: blue;
-  
+  border-radius: 10px;
 }
 
 .title {
@@ -48,4 +48,13 @@ code {
 button {
   background-color: lightblue;
   margin: 10px;
+  border-radius: 5px;
+}
+
+.accordion {
+  border-radius: 10px;
+}
+
+.container {
+
 }
