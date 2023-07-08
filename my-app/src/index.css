@@ -44,3 +44,8 @@ code {
   display: flex;
   justify-content: space-around;
 }
+
+button {
+  background-color: lightblue;
+  margin: 10px;
+}
