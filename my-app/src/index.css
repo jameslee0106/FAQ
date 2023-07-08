@@ -25,6 +25,10 @@ code {
   
 }
 
+.title {
+  text-align: center;
+}
+
 .item {
   background-color: white;
 }
